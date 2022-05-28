@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500&display=swap');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    background-color: #0022ee;
+    min-height: 100vh;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 3.5em;
+    color: white;
+    text-align: center;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: white;
+    width: 80%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+}
+
+ul{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+}
+li{
+    width: 95%;
+    margin-bottom: 5px;
+}
+.listItem{
+    width: 100%;
+    display: flex;
+    background-color: rgba(83, 83, 83, 0.2);
+    border-radius: 5px;
+}
+
+.userInput, .userInput:active{
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: large;
+    border: none;
+    outline:none;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+input[type="text"]{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    font-size: large;
+}
+
+input[type="checkbox"]{
+    width: 40px;
+    height: 40px;
+}
+
+.removeBtn, button {
+    font-size: 16px;
+    letter-spacing: 2px;
+    font-weight: 400 !important;
+    background-color: rgba(255, 255, 255, 0);
+    color: #2a2b2c;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+    display: inline-block !important;
+    text-decoration: none;
+    border: 0px;
+    border-radius: 5px;
+    width: max-content;
+    cursor: pointer;
+    transition: all 0.3s 0s ease-in-out;
+}
+
+.removeBtn:hover {
+    background-color:  #e63946ff;
+    color: white;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color:  #0022ee;
+    color: white;
+    text-decoration: none;
+}
+
+.listTools{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.list-filter{
+    display: flex;
+}
+
+input[type="radio"]{
+    margin: 8px;
+}
+
+.inputForm{
+    width: 80%;
+    display: flex;
+}
+
+input[type="text"]{
+    width: 100%;
+    margin-right: 2px;
+}
+
+.todo-completed{
+    color:#2a2b2c7e;
+    text-decoration: line-through;
+}
+
+footer, footer a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-top: auto;
+}

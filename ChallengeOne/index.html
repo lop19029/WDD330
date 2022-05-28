@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>ToDo App</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        <h1>To Do List</h1>
+        <div class="card">
+            <ul id="todosDisplayList" class="list">
+            </ul>
+            <div class="listTools">
+                <p><span id="activeTodosLeft"></span> tasks left</p>
+                <form class="list-filter" name="filters">
+                    <input type="radio" name="filter" value="all" checked> All<br>
+                    <input type="radio" name="filter" value="active"> Active<br>
+                    <input type="radio" name="filter" value="completed"> Completed
+                </form>
+            </div>
+            <form class="inputForm">
+                <input type="text" placeholder="Add a new todo...">
+                <button type="button" onclick="addTodo()">+</button>
+            </form>
+        </div>
+        <footer>
+            &copy; <a href="https://github.com/lop19029">Alex López</a> 2022 - BYUI WDD 330
+        </footer>
+    </body>
+    <script src="script.js"></script>
+</html>
